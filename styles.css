@@ -1,0 +1,197 @@
+* {
+    background-color: black;
+    
+    margin: 0;
+}
+ 
+h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ p{
+    font-family: 'Inter', sans-serif;
+    
+ }
+
+/*header*/
+#logo {
+    width: 60px;
+    height: 60px;
+}
+
+.main-btn {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-right: 80px;
+    padding: 5px 32px;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.main-btn:hover{
+    color: black;
+    background-color: #fff;
+    
+
+}
+
+#nav-bar-button{
+
+    text-decoration: none;
+
+
+}
+
+
+/* area do home*/
+
+.container-fluid{
+    padding: 0;
+    
+}
+
+.home-img {
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+}
+
+.menu-text h2 {
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 278px;
+    left: 184px;
+    color: #fff;
+    background-color: transparent;
+    
+}
+
+.menu-text h3{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 350px;
+    left: 184px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.menu-text p {
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 520px;
+    left: 184px;
+    color: #fff;
+    background-color: transparent;
+    padding-right: 50%;
+}
+
+
+#menu-btn {
+    position: absolute;
+    top: 680px;
+    left: 184px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#menu-btn:hover{
+     background-color: #fff;
+     color: black;
+     border: 1px solid transparent;
+
+}
+
+/*titulo*/
+
+.main-title{
+    letter-spacing: 0.12rem;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 160px;
+    color: #fff;
+}
+
+#title-area p {
+    color: #fff;
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.bolder{
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 0.12rem;
+    margin-left: 490px;
+    padding: 0;
+    color: #fff;
+}
+
+.lighter{
+    margin-top: 15px;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+/*area da identidade visual*/
+
+#visual-area{
+    margin-top: 224px;
+}
+
+#visual-title h3 {
+   font-size: 40px;
+   font-weight: 500;
+   line-height: 49px;
+   letter-spacing: 0.12rem;
+   color: #fff;
+}
+
+#visual-text p{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 00.1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.idv {
+    transition: trasform .5s;
+    width: 370px;
+    height: 280px;
+}
+
+.idv:hover {
+    transform: scale(1.1);
+}
+
+#call-to-idv{
+    text-align: center;
+    margin-top: 92px;
+    width: 131px;
+    height: 44px;
+
+}
+
+#idv-btn{
+    font-size: large;
+    text-decoration: none;
+    width: 131px;
+    height: 44px;
+    padding: 10px 16px;
+    border-radius: 30px;
+    border: 3px solid white;
+
+}
+
+
+

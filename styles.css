@@ -1,6 +1,8 @@
+/*general setings*/
+
 * {
     background-color: black;
-    
+    padding 0;
     margin: 0;
 }
  
@@ -45,7 +47,7 @@ h2, h3, h4 {
 }
 
 
-/* area do home*/
+/* home area*/
 
 .container-fluid{
     padding: 0;
@@ -106,12 +108,12 @@ h2, h3, h4 {
 
 }
 
-/*titulo*/
+/*title*/
 
 .main-title{
     letter-spacing: 0.12rem;
     font-size: 40px;
-    margin: auto;
+    text-align: center;
     margin-top: 160px;
     color: #fff;
 }
@@ -122,13 +124,21 @@ h2, h3, h4 {
     font-size: 20px;
     text-align: center;
     margin-top: 24px;
+    
+}
+
+.time h4{
+    
+    float: left;
+
+    
 }
 
 .bolder{
     font-weight: 700;
     font-size: 60px;
     letter-spacing: 0.12rem;
-    margin-left: 490px;
+    margin-left: 560px;
     padding: 0;
     color: #fff;
 }
@@ -141,7 +151,7 @@ h2, h3, h4 {
     color: #fff;
 }
 
-/*area da identidade visual*/
+/*visual area identity*/
 
 #visual-area{
     margin-top: 224px;
@@ -153,6 +163,7 @@ h2, h3, h4 {
    line-height: 49px;
    letter-spacing: 0.12rem;
    color: #fff;
+   margin-left: 29px;
 }
 
 #visual-text p{
@@ -161,13 +172,14 @@ h2, h3, h4 {
     letter-spacing: 00.1rem;
     text-transform: uppercase;
     color: #fff;
+    margin-left: 40px;
 }
 
 
 .idv {
     transition: trasform .5s;
-    width: 370px;
-    height: 280px;
+    width: 445px;
+    height: 330px;
 }
 
 .idv:hover {
@@ -176,10 +188,8 @@ h2, h3, h4 {
 
 #call-to-idv{
     text-align: center;
-    margin-top: 92px;
-    width: 131px;
-    height: 44px;
-
+    margin-top: 92px; 
+    
 }
 
 #idv-btn{
@@ -190,8 +200,66 @@ h2, h3, h4 {
     padding: 10px 16px;
     border-radius: 30px;
     border: 3px solid white;
+    font-weight: bold;  
+    
+}
 
+/*Social media area*/
+
+#socialmedia-area {
+    margin-top: 202px;
+}
+
+
+    
+
+
+#social-title h3 {
+   font-size: 40px;
+   font-weight: 500;
+   line-height: 49px;
+   letter-spacing: 0.12rem;
+   color: #fff;
+   margin-left: 29px;
+}
+
+#social-text p {
+    
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 00.1rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 40px;
 }
 
 
 
+
+.sm {
+    transition: trasform .5s;
+    width: 445px;
+    height: 330px;
+}
+
+.sm:hover{
+    transform: scale(1.1);
+}
+
+#call-to-sm{
+    text-align: center;
+    margin-top: 92px; 
+    
+}
+
+#sm-btn{
+    font-size: large;
+    text-decoration: none;
+    width: 131px;
+    height: 44px;
+    padding: 10px 16px;
+    border-radius: 30px;
+    border: 3px solid white;
+    font-weight: bold;  
+    
+}

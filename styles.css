@@ -49,23 +49,28 @@ h2, h3, h4 {
 
 /* home area*/
 
+
 .container-fluid{
     padding: 0;
     
 }
 
-.home-img {
+.menu-img{
+    background-image: url("/img/Rectangle 15.png") ;
+    background-size: 100%;
     height: 90vh;
-    width: 100vw;
-    position: relative;
+    margin-top: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+    
 }
 
 .menu-text h2 {
     font-size: 32px;
     letter-spacing: 0.1em;
-    position: absolute;
-    top: 278px;
-    left: 184px;
+    padding-top: 150px;
+    margin-left:  184px;
     color: #fff;
     background-color: transparent;
     
@@ -74,9 +79,8 @@ h2, h3, h4 {
 .menu-text h3{
     font-size: 64px;
     letter-spacing: 0.1em;
-    position: absolute;
-    top: 350px;
-    left: 184px;
+    padding-top: 20px;
+    margin-left:  184px;
     color: #fff;
     background-color: transparent;
 }
@@ -84,9 +88,9 @@ h2, h3, h4 {
 .menu-text p {
     font-size: 20px;
     letter-spacing: 0.1em;
-    position: absolute;
-    top: 520px;
-    left: 184px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin-left:  184px;
     color: #fff;
     background-color: transparent;
     padding-right: 50%;
@@ -94,9 +98,9 @@ h2, h3, h4 {
 
 
 #menu-btn {
-    position: absolute;
-    top: 680px;
-    left: 184px;
+    border: 3px solid #fff;
+    margin-top: 184px;
+    margin-left:  184px;
     background-color: transparent;
     text-decoration: none;
 }
@@ -263,3 +267,49 @@ h2, h3, h4 {
     font-weight: bold;  
     
 }
+
+/* Portfolio area*/
+
+#portfolio-area {
+    margin-top: 212px;
+}
+
+#portfolio-title h3 {
+    font-size: 40px;
+   font-weight: 500;
+   line-height: 49px;
+   letter-spacing: 0.12rem;
+   color: #fff;
+   margin-left: 29px;
+}
+
+#portfolio-text p {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 00.1rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 40px;
+}
+
+#filter-btn-box{
+    padding-left: 125px;
+}
+.filter-btn {
+    border: none;
+    padding: 0;
+    margin: 32px 0 08px 0;
+    width: 120px;
+
+    
+}
+
+.filter-btn:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+    font-weight: bold;
+    color: white;
+}
+
+/*--partners&client's area--*/
+
